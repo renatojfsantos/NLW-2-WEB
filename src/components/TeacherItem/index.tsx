@@ -4,12 +4,6 @@ import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
 
-import React from 'react';
-
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
-
-import './styles.css';
-
 function TeacherItem () {
     return (
         <article className="teacher-item">
