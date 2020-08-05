@@ -8,7 +8,7 @@ function App() {
       <h1>Hello World</h1>
 
       <button type="button">
-        Clica em mim!!!
+        Clica em mim
       </button>
     </div>
   );
