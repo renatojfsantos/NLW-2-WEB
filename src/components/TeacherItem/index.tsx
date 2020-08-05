@@ -4,6 +4,12 @@ import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
 
+import React from 'react';
+
+import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
+
+import './styles.css';
+
 function TeacherItem () {
     return (
         <article className="teacher-item">
@@ -17,7 +23,7 @@ function TeacherItem () {
 
             <p>
                 Entusiasta de novas tecnologias
-                <br/><br/>
+                <br /><br />
                 Cada dia um novo aprendizado sobre novas tecnologias e assim sempre evoluindo para tornar o mundo melhor. Então sempre codando e aprendendo!!!
             </p>
 
@@ -27,7 +33,7 @@ function TeacherItem () {
                     <strong>R$200,00</strong>
                 </p>
                 <button type="button">
-                    <img src={whatsappIcon} alt="Whatsapp"/>
+                    <img src={whatsappIcon} alt="whatsapp"/>
                     Entrar em contato
                 </button>
             </footer>
